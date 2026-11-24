@@ -85,12 +85,14 @@ createCards(webProjects, "web-gallery");
 createCards(games, "games-gallery");
 
 // =================================
-// ДОБАВЛЕНИЕ КОМИКСА
+// 📖 ДОБАВЛЕНИЕ КОМИКСА
 // =================================
 
 const comicGallery = document.getElementById("comic-gallery");
 
-comicImages.forEach((link, index) => {
+comicGallery.innerHTML = "";
+
+comicImages.slice(0, 2).forEach((link, index) => {
   const img = document.createElement("img");
 
   img.src = link;
