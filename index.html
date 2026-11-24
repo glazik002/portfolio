@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MY PORTFOLIO</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>MY PORTFOLIO</h1>
+
+    <nav>
+      <a href="#home">Главная</a>
+      <a href="#web">Web</a>
+      <a href="#js">JavaScript</a>
+      <a href="#games">Игры</a>
+      <a href="#comic">Комикс</a>
+      <a href="#movie">Фильм</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Привет! Я начинающий разработчик 👋</h2>
+
+    <p>
+      Добро пожаловать в моё портфолио!
+      Здесь собраны мои проекты, игры и творчество.
+    </p>
+
+    <a href="#web" class="btn">Посмотреть проекты</a>
+  </section>
+
+  <section id="web">
+    <h2>🌐 Web проекты</h2>
+    <div class="cards" id="web-gallery"></div>
+  </section>
+
+  <section id="js">
+    <h2>⚡ JavaScript проекты</h2>
+    <div class="cards" id="js-gallery"></div>
+  </section>
+
+  <section id="games">
+    <h2>🎮 Мои игры</h2>
+    <div class="cards" id="games-gallery"></div>
+  </section>
+
+  <section id="comic">
+    <h2>📖 Мой комикс</h2>
+    <p>История в картинках</p>
+
+    <div class="comic" id="comic-gallery"></div>
+  </section>
+
+  <section id="movie">
+    <h2>🎬 Мой фильм</h2>
+    <p>Трейлер моего фильма</p>
+
+    <div class="video">
+      <iframe
+        id="movie-video"
+        src=""
+        title="Мой фильм"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 My Portfolio. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
