@@ -40,8 +40,7 @@ const games = [
 
 const comicImages = [
   "https://i.postimg.cc/bvtpqCys/Snimok-ekrana-2026-11-24-192615.png",
-  "https://i.postimg.cc/YqrrQz36/Snimok-ekrana-2026-11-24-192623.png",
-  "ВСТАВЬ_ССЫЛКУ_НА_СТРАНИЦУ_КОМИКСА_3"
+  "https://i.postimg.cc/YqrrQz36/Snimok-ekrana-2026-11-24-192623.png"
 ];
 
 // =================================
